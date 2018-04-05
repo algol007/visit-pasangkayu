@@ -4,7 +4,7 @@ html, body{
 }
 
 body{
-  width: 600px;
+  width: 400px;
   margin: 0 auto;
   font-family: monospace;
 }
@@ -14,21 +14,20 @@ body{
   text-align: center;
   height: 70px;
   padding: 0;
+  width: 100%;
 }
 
 .box{
-  width: 598px;
-  height: 600px;
+  width: 100%;
   float: left;
   display: inline-block;
   text-align: center;
-  border: 1px solid #696969;
+  font-family: monospace;
 }
 
 img{
-  width: 100px;
-  height: 130px;
-  padding-top: 70px;
+  width: 25%;
+  padding-top: 20%;
 }
 
 .title{
@@ -36,6 +35,7 @@ img{
   font-size: 20px;
   font-weight: bold;
   color: #ffffff;
+  font-family: monospace;
 }
 
 a{
